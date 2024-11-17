@@ -1,0 +1,32 @@
+# Python Bytecode
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# Flask instance folder
+instance/
+
+# Logs
+*.log
+
+# Config files with sensitive information (e.g., secret keys, etc.)
+*.cfg
+*.ini
+*.yaml
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+saved_model/
